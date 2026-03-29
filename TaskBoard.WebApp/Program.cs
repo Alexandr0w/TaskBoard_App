@@ -28,7 +28,7 @@ builder.Services
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 builder.Services.AddControllersWithViews();
 builder.Services.AddHttpClient();
-
+//
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
